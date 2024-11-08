@@ -1,0 +1,22 @@
+button {
+    display: flex;
+    line-height: 30px;
+    align-items: center;
+    margin: 0 0 0 0;
+    justify-content: center;
+    gap: 4px;
+    min-width: 80px;
+    width: auto;
+    max-height: 30px;
+    position: absolute;
+    left: var(--detail-left);
+    bottom: 28%;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    filter: drop-shadow(rgba(255, 255, 255, 0.8) 0px 0px 6px);
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #333;
+    border-color: transparent;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
